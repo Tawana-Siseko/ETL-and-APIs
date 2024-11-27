@@ -17,7 +17,7 @@ def get_access_token():
     token_response.raise_for_status()
     return token_response.json()["access_token"]
 def get_data(access_token):
-    data_url = "https://api.mypurecloud.de/api/v2/downloads/eef29903ea884dee"
+    data_url = "https://api.mypurecloud.de/api/v2/downloads/8148b7ba95f01ac5"
     api_headers = {
         "Authorization": f"Bearer {access_token}",
         "Content-Type": "application/json"
